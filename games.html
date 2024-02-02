@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2 Column - fw-16-2-col</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>* { padding: 0; margin: 0; box-sizing: border-box; }
+      #box {
+          display: flex;
+          margin: auto;
+          width: 600px;
+          background-color: #030302;
+          border: 1px solid #ccc;
+          box-shadow: 0 0 5px #cccccc62;
+          padding: 2%;
+          text-align: center;
+      }
+      #wrapper {
+          width: 100%;
+          background-color: #292929;
+      }
+      #header, #navigation, #leftcolumn, #rightcolumn, #footer {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+      }
+      #header, #navigation, #footer {
+          background-color: #0c0a00;
+          border: 1px solid #ccc;
+          color: #494949;
+      }
+      #leftcolumn {
+          float: none;
+          width: 100%;
+          height: auto;
+          background-color: #6d6d6d;
+          padding-bottom: 100px;
+      }
+
+      #footer {
+          clear: both;
+      }
+      
+      html, body {
+        height: 100%;
+      }
+      
+      html {
+        display: table;
+        margin: auto;
+      }
+      
+      body {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      
+      .buttonClass {
+        font-size:15px;
+        font-family:Arial;
+        width:140px;
+        height:50px;
+        border-width:1px;
+        color:#fff;
+        border-color:rgba(3, 3, 7, 1);
+        font-weight:bold;
+        border-top-left-radius:0px;
+        border-top-right-radius:0px;
+        border-bottom-left-radius:0px;
+        border-bottom-right-radius:0px;
+        text-shadow:inset 0px -1px 0px #7a2a1d;
+        background:rgba(12, 9, 22, 1);
+      }
+      
+      .buttonClass:hover {
+        background: rgba(58, 33, 29, 1)
+      }
+                    
+      .spacer {
+        padding: 100px;
+      }
+      /*games*/</style>
+</head>
+<body style="background-color: #000000; opacity: 1; background: linear-gradient(135deg, #2d320055 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(225deg, #2d3200 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(315deg, #2d320055 25%, transparent 25%) 0px 0/ 42px 42px, linear-gradient(45deg, #2d3200 25%, #000000 25%) 0px 0/ 42px 42px;">
+    <div id="box" >
+    <!-- Begin Wrapper -->
+    <div id="wrapper">
+        <!-- Begin Header -->
+        <div id="header">
+            <h1><a>Joonas Sippola</a></h1>
+        </div>
+        <!-- End Header -->
+        <!-- Begin Navigation -->
+        <div id="navigation">
+            <a href="https://jsippis.github.io/" class="buttonClass">Home</a>
+        </div>
+        <!-- End Navigation -->
+        <!-- Begin Left Column -->
+        <div id="leftcolumn">Einstein Saga</div>
+        <!-- End Left Column -->
+        <div id="spacer"></div>
+        <!-- Begin Footer -->
+        <div id="footer">&copy; Jsippis</div>
+        <!-- End Footer -->
+    </div>
+    <!-- End Wrapper -->
+  </div>
+</body>
+</html>
